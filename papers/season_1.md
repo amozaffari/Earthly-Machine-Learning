@@ -1,0 +1,24 @@
+# Season 1
+
+
+### Episode 1: Probabilistic weather forecasting with machine learning
+
+- https://doi.org/10.1038/s41586-024-08252-9
+- Published: 04 December 2024
+- [_Nature_](https://www.nature.com/)
+
+**Abstract** : Weather forecasts are fundamentally uncertain, so predicting the range of probable weather scenarios is crucial for important decisions, from warning the public about hazardous weather to planning renewable energy use. Traditionally, weather forecasts have been based on numerical weather prediction (NWP)[1](https://www.nature.com/articles/s41586-024-08252-9#ref-CR1 "Bauer, P., Thorpe, A. & Brunet, G. The quiet revolution of numerical weather prediction. Nature 525, 47–55 (2015)."), which relies on physics-based simulations of the atmosphere. Recent advances in machine learning (ML)-based weather prediction (MLWP) have produced ML-based models with less forecast error than single NWP simulations[2](https://www.nature.com/articles/s41586-024-08252-9#ref-CR2 "Lam, R. et al. Learning skillful medium-range global weather forecasting. Science 382, 1416–1421 (2023)."),[3](https://www.nature.com/articles/s41586-024-08252-9#ref-CR3 "Bi, K. et al. Accurate medium-range global weather forecasting with 3D neural networks. Nature 619, 533–538 (2023)."). However, these advances have focused primarily on single, deterministic forecasts that fail to represent uncertainty and estimate risk. Overall, MLWP has remained less accurate and reliable than state-of-the-art NWP ensemble forecasts. Here we introduce GenCast, a probabilistic weather model with greater skill and speed than the top operational medium-range weather forecast in the world, ENS, the ensemble forecast of the European Centre for Medium-Range Weather Forecasts[4](https://www.nature.com/articles/s41586-024-08252-9#ref-CR4 "ECMWF. IFS Documentation CY46R1. Part V: Ensemble Prediction System (ECMWF, 2019)."). GenCast is an ML weather prediction method, trained on decades of reanalysis data. GenCast generates an ensemble of stochastic 15-day global forecasts, at 12-h steps and 0.25° latitude–longitude resolution, for more than 80 surface and atmospheric variables, in 8 min. It has greater skill than ENS on 97.2% of 1,320 targets we evaluated and better predicts extreme weather, tropical cyclone tracks and wind power production. This work helps open the next chapter in operational weather forecasting, in which crucial weather-dependent decisions are made more accurately and efficiently.
+
+**Citation**: Price, I., Sanchez-Gonzalez, A., Alet, F. et al. Probabilistic weather forecasting with machine learning. Nature 637, 84–90 (2025). ⁠
+
+**DOI**: ⁠https://doi.org/10.1038/s41586-024-08252-9
+
+
+### Episode 2: Robustness of AI-based weather forecasts in a changing climate
+
+**Abstract** : Data-driven machine learning models for weather forecasting have made transformational progress in the last 1-2 years, with state-of-the-art ones now outperforming the best physics-based models for a wide range of skill scores. Given the strong links between weather and climate modelling, this raises the question whether machine learning models could also revolutionize climate science, for example by informing mitigation and adaptation to climate change or to generate larger ensembles for more robust uncertainty estimates. Here, we show that current state-of-the-art machine learning models trained for weather forecasting in present-day climate produce skillful forecasts across different climate states corresponding to pre-industrial, present-day, and future 2.9K warmer climates. This indicates that the dynamics shaping the weather on short timescales may not differ fundamentally in a changing climate. It also demonstrates out-of-distribution generalization capabilities of the machine learning models that are a critical prerequisite for climate applications. Nonetheless, two of the models show a global-mean cold bias in the forecasts for the future warmer climate state, i.e. they drift towards the colder present-day climate they have been trained for. A similar result is obtained for the pre-industrial case where two out of three models show a warming. We discuss possible remedies for these biases and analyze their spatial distribution, revealing complex warming and cooling patterns that are partly related to missing ocean-sea ice and land surface information in the training data. Despite these current limitations, our results suggest that data-driven machine learning models will provide powerful tools for climate science and transform established approaches by complementing conventional physics-based models.
+
+**Citation**: Rackow, Thomas, et al. "Robustness of AI-based weather forecasts in a changing climate." arXiv preprint arXiv:2409.18529 (2024)
+
+**DOI**: ⁠⁠⁠⁠https://doi.org/10.48550/arXiv.2409.18529
+

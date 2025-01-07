@@ -1,0 +1,2 @@
+## Instruction for NotebookLM
+The audio summary serves to provide a general understanding of the paper, highlighting what’s new and why it’s worth reading in full. At the end of the audio overview, include very brief bullet points summarizing the main takeaways from the paper.
