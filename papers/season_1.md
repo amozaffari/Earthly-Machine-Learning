@@ -22,3 +22,10 @@
 
 **DOI**: ⁠⁠⁠⁠https://doi.org/10.48550/arXiv.2409.18529
 
+### Episode 3: AIFS -- ECMWF's data-driven forecasting system
+
+**Abstract**: Machine learning-based weather forecasting models have quickly emerged as a promising methodology for accurate medium-range global weather forecasting. Here, we introduce the Artificial Intelligence Forecasting System (AIFS), a data driven forecast model developed by the European Centre for Medium-Range Weather Forecasts (ECMWF). AIFS is based on a graph neural network (GNN) encoder and decoder, and a sliding window transformer processor, and is trained on ECMWF's ERA5 re-analysis and ECMWF's operational numerical weather prediction (NWP) analyses. It has a flexible and modular design and supports several levels of parallelism to enable training on high-resolution input data. AIFS forecast skill is assessed by comparing its forecasts to NWP analyses and direct observational data. We show that AIFS produces highly skilled forecasts for upper-air variables, surface weather parameters and tropical cyclone tracks. AIFS is run four times daily alongside ECMWF's physics-based NWP model and forecasts are available to the public under ECMWF's open data policy.
+
+**Citation**: Lang, Simon, et al. "AIFS-ECMWF's data-driven forecasting system." arXiv preprint arXiv:2406.01465 (2024).
+
+**DOI**:https://doi.org/10.48550/arXiv.2406.01465

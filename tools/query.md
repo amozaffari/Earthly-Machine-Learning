@@ -1,2 +1,7 @@
 ## Instruction for NotebookLM
-The audio summary serves to provide a general understanding of the paper, highlighting what’s new and why it’s worth reading in full. At the end of the audio overview, include very brief bullet points summarizing the main takeaways from the paper.
+
+•Limit the presentation length to 10–15 minutes.
+•Focus on providing a general understanding of the paper.
+•Target informed researchers in machine learning and weather/climate sciences.
+•Emphasize what is new in the paper and why it is worth reading in full.
+•Include 3–5 bullet points that summarize the key takeaways.
