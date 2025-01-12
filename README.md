@@ -1,19 +1,18 @@
 # Earthly Machine Learning (EML) Podcast Repository  
 
-Welcome to the official repository for **Earthly Machine Learning (EML)** — [listen on Spotify](https://open.spotify.com/show/0lTrPDrL7p3TgXwkmVqkQh?si=08ba3b69187e4144).  
+Welcome to the official repository for **Earthly Machine Learning (EML)** — [listen on Spotify](https://open.spotify.com/show/0lTrPDrL7p3TgXwkmVqkQh?si=08ba3b69187e4144) or [on Apple Podcast](https://podcasts.apple.com/us/podcast/earthly-machine-learning/id1789926996).  
 
 **Earthly Machine Learning (EML)** brings you concise, AI-generated summaries of the latest machine learning research in weather, climate, and Earth sciences. The podcast is designed to make it easy to understand key insights from papers and decide whether to explore them in detail.  
 
 ---
 
 ## Repository Contents  
+
 This repository is organized into two main folders:  
 
 1. **`tools/`** 🛠️  
    Contains scripts used for:  
-   - Querying research papers  
-   - Processing and summarizing paper content  
-   - Automating tasks related to paper discovery and episode preparation  
+   - Querying research papers for NotebookLM  
 
 2. **`papers/`** 📚  
    Contains links to published research papers discussed in each podcast episode, organized by episode or topic for easy reference.  
@@ -21,6 +20,7 @@ This repository is organized into two main folders:
 ---
 
 ## How to Use  
+
 - Use the `tools/` folder to explore and run scripts for research paper processing.  
 - Navigate to the `papers/` folder to access links to research papers featured in the podcast.  
 - Check episode-specific notes and updates for any additional context.  
@@ -28,9 +28,10 @@ This repository is organized into two main folders:
 ---
 
 ## Contribute  
+
 If you'd like to contribute to the project, feel free to:  
-- Open an issue to suggest improvements or new features  
-- Submit a pull request with updated tools or new paper links  
+
+- Open an issue to suggest improvements, paper to include or new features  
 
 ---
 
