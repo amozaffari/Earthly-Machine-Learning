@@ -29,3 +29,11 @@
 **Citation**: Lang, Simon, et al. "AIFS-ECMWF's data-driven forecasting system." arXiv preprint arXiv:2406.01465 (2024).
 
 **DOI**:https://doi.org/10.48550/arXiv.2406.01465
+
+### Episode 4: Deep learning for predicting rate-induced tipping
+
+**Abstract**: Nonlinear dynamical systems exposed to changing forcing values can exhibit catastrophic transitions between distinct states. The phenomenon of critical slowing down can help anticipate such transitions if caused by a bifurcation and if the change in forcing is slow compared with the system’s internal timescale. However, in many real-world situations, these assumptions are not met and transitions can be triggered because the forcing exceeds a critical rate. For instance, the rapid pace of anthropogenic climate change compared with the internal timescales of key Earth system components, like polar ice sheets or the Atlantic Meridional Overturning Circulation, poses significant risk of rate-induced tipping. Moreover, random perturbations may cause some trajectories to cross an unstable boundary whereas others do not—even under the same forcing. Critical-slowing-down-based indicators generally cannot distinguish these cases of noise-induced tipping from no tipping. This severely limits our ability to assess the tipping risks and to predict individual trajectories. To address this, we make the first attempt to develop a deep learning framework predicting the transition probabilities of dynamical systems ahead of rate-induced transitions. Our method issues early warnings, as demonstrated on three prototypical systems for rate-induced tipping subjected to time-varying equilibrium drift and noise perturbations. Exploiting explainable artificial intelligence methods, our framework captures the fingerprints for the early detection of rate-induced tipping, even with long lead times. Our findings demonstrate the predictability of rate-induced and noise-induced tipping, advancing our ability to determine safe operating spaces for a broader class of dynamical systems than possible so far.
+
+**Citation**: Huang, Y., Bathiany, S., Ashwin, P. et al. Deep learning for predicting rate-induced tipping. Nat Mach Intell 6, 1556–1565 (2024). https://doi.org/10.1038/s42256-024-00937-0.
+
+**DOI**:https://doi.org/10.1038/s42256-024-00937-0
