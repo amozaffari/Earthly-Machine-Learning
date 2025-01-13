@@ -37,3 +37,11 @@
 **Citation**: Huang, Y., Bathiany, S., Ashwin, P. et al. Deep learning for predicting rate-induced tipping. Nat Mach Intell 6, 1556–1565 (2024). https://doi.org/10.1038/s42256-024-00937-0.
 
 **DOI**:https://doi.org/10.1038/s42256-024-00937-0
+
+### Episode 5: Neural general circulation models for weather and climate
+
+**Abstract**: General circulation models (GCMs) are the foundation of weather and climate prediction1,2. GCMs are physics-based simulators that combine a numerical solver for large-scale dynamics with tuned representations for small-scale processes such as cloud formation. Recently, machine-learning models trained on reanalysis data have achieved comparable or better skill than GCMs for deterministic weather forecasting3,4. However, these models have not demonstrated improved ensemble forecasts, or shown sufficient stability for long-term weather and climate simulations. Here we present a GCM that combines a differentiable solver for atmospheric dynamics with machine-learning components and show that it can generate forecasts of deterministic weather, ensemble weather and climate on par with the best machine-learning and physics-based methods. NeuralGCM is competitive with machine-learning models for one- to ten-day forecasts, and with the European Centre for Medium-Range Weather Forecasts ensemble prediction for one- to fifteen-day forecasts. With prescribed sea surface temperature, NeuralGCM can accurately track climate metrics for multiple decades, and climate forecasts with 140-kilometre resolution show emergent phenomena such as realistic frequency and trajectories of tropical cyclones. For both weather and climate, our approach offers orders of magnitude computational savings over conventional GCMs, although our model does not extrapolate to substantially different future climates. Our results show that end-to-end deep learning is compatible with tasks performed by conventional GCMs and can enhance the large-scale physical simulations that are essential for understanding and predicting the Earth system.
+
+**Citation**: Kochkov, D., Yuval, J., Langmore, I. et al. Neural general circulation models for weather and climate. Nature 632, 1060–1066 (2024). https://doi.org/10.1038/s41586-024-07744-y.
+
+**DOI**:https://doi.org/10.1038/s41586-024-07744-y
