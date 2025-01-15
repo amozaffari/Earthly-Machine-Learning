@@ -53,3 +53,11 @@
 **Citation**: Schmude, Johannes, et al. "Prithvi wxc: Foundation model for weather and climate." arXiv preprint arXiv:2409.13598 (2024).
 
 **DOI**:https://doi.org/10.48550/arXiv.2409.13598
+
+### Episode 7:Aardvark weather: end-to-end data-driven weather forecasting
+
+**Abstract**: Weather forecasting is critical for a range of human activities including transportation, agriculture, industry, as well as the safety of the general public. Machine learning models have the potential to transform the complex weather prediction pipeline, but current approaches still rely on numerical weather prediction (NWP) systems, limiting forecast speed and accuracy. Here we demonstrate that a machine learning model can replace the entire operational NWP pipeline. Aardvark Weather, an end-to-end data-driven weather prediction system, ingests raw observations and outputs global gridded forecasts and local station forecasts. Further, it can be optimised end-to-end to maximise performance over quantities of interest. Global forecasts outperform an operational NWP baseline for multiple variables and lead times. Local station forecasts are skillful up to ten days lead time and achieve comparable and often lower errors than a post-processed global NWP baseline and a state-of-the-art end-to-end forecasting system with input from human forecasters. These forecasts are produced with a remarkably simple neural process model using just 8% of the input data and three orders of magnitude less compute than existing NWP and hybrid AI-NWP methods. We anticipate that Aardvark Weather will be the starting point for a new generation of end-to-end machine learning models for medium-range forecasting that will reduce computational costs by orders of magnitude and enable the rapid and cheap creation of bespoke models for users in a variety of fields, including for the developing world where state-of-the-art local models are not currently available.
+
+**Citation**: Vaughan, Anna, et al. "Aardvark weather: end-to-end data-driven weather forecasting." arXiv preprint arXiv:2404.00411 (2024).
+
+**DOI**: https://doi.org/10.48550/arXiv.2404.00411
