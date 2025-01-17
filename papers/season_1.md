@@ -61,3 +61,27 @@
 **Citation**: Vaughan, Anna, et al. "Aardvark weather: end-to-end data-driven weather forecasting." arXiv preprint arXiv:2404.00411 (2024).
 
 **DOI**: https://doi.org/10.48550/arXiv.2404.00411
+
+### Episode 8:Identifying and Categorizing Bias in AI/ML for Earth Sciences
+
+**Abstract**: Artificial intelligence (AI) can be used to improve performance across a wide range of Earth system prediction tasks. As with any application of AI, it is important for AI to be developed in an ethical and responsible manner to minimize bias and other effects. In this work, we extend our previous work demonstrating how AI can go wrong with weather and climate applications by presenting a categorization of bias for AI in the Earth sciences. This categorization can assist AI developers to identify potential biases that can affect their model throughout the AI development life cycle. We highlight examples from a variety of Earth system prediction tasks of each category of bias.
+
+**Citation**: McGovern, Amy, et al. "Identifying and Categorizing Bias in AI/ML for Earth Sciences." Bulletin of the American Meteorological Society 105.3 (2024): E567-E583.
+
+**DOI**: https://doi.org/10.1175/BAMS-D-23-0196.1
+
+### Episode 9: Probabilistic Emulation of a Global Climate Model with Spherical DYffusion
+
+### Episode 10: FuXi-ENS: A machine learning model for medium-range ensemble weather forecasting
+
+### Episode 11: ACE: A fast, skillful learned global atmospheric model for climate prediction
+
+### Episode 12: AURORA: A FOUNDATION MODEL OF THE ATMOSPHERE
+
+### Episode 13: ADVANCES IN LAND SURFACE MODEL-BASED FORECASTING: A COMPARATIVE STUDY OF LSTM, GRADIENT BOOSTING, AND FEEDFORWARD NEURAL NETWORK MODELS AS PROGNOSTIC STATE EMULATORS
+
+### Episode 14: ARCHESWEATHER: An efficient AI weather forecasting model at 1.5º resolution
+
+### Episode 15: DiffDA: a diffusion model for weather-scale data assimilation
+
+### Episode 15: GRAPHDOP: TOWARDS SKILFUL DATA-DRIVEN MEDIUM-RANGE WEATHER FORECASTS LEARNT AND INITIALISED DIRECTLY FROM OBSERVATIONS
