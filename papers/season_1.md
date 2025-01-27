@@ -121,17 +121,48 @@ Zhong, Xiaohui, et al. "FuXi-ENS: A machine learning model for medium-range ense
 
 ## Episode 11: ACE — A Fast, Skillful Learned Global Atmospheric Model for Climate Prediction
 
+- **DOI:** [https://doi.org/10.48550/arXiv.2310.02074](https://doi.org/10.48550/arXiv.2310.02074)
+
+**Abstract:** 
+Existing ML-based atmospheric models are not suitable for climate prediction, which requires long-term stability and physical consistency. We present ACE (AI2 Climate Emulator), a 200M-parameter, autoregressive machine learning emulator of an existing comprehensive 100-km resolution global atmospheric model. The formulation of ACE allows evaluation of physical laws such as the conservation of mass and moisture...
+
+**Citation:**
+Watt-Meyer, Oliver, et al. "ACE: A fast, skillful learned global atmospheric model for climate prediction." arXiv preprint arXiv:2310.02074 (2023).
 ---
 
 ## Episode 12: AURORA — A Foundation Model of the Atmosphere
+
+- **DOI:** [https://doi.org/10.48550/arXiv.2405.130634](https://doi.org/10.48550/arXiv.2405.13063)
+
+**Abstract:**
+Reliable forecasts of the Earth system are crucial for human progress and safety from natural disasters. Artificial intelligence offers substantial potential to improve prediction accuracy and computational efficiency in this field, however this remains underexplored in many domains. Here we introduce Aurora, a large-scale foundation model for the Earth system trained on over a million hours of diverse data...
+
+**Citation:**
+Bodnar, Cristian, et al. "Aurora: A foundation model of the atmosphere." arXiv preprint arXiv:2405.13063 (2024).
 
 ---
 
 ## Episode 13: Advances in Land Surface Model-Based Forecasting
 
+- **DOI:** [https://doi.org/10.5194/egusphere-2024-2081](https://doi.org/10.5194/egusphere-2024-2081)
+
+**Abstract:**
+Most useful weather prediction for the public is near the surface. The processes that are most relevant for near-surface weather prediction are also those that are most interactive and exhibit positive feedback or have key role in energy partitioning. Land surface models (LSMs) consider these processes together with surface heterogeneity and forecast water, carbon and energy fluxes, and coupled with an atmospheric model provide boundary and initial conditions.
+
+**Citation:**
+Wesselkamp, M., et al. : Advances in Land Surface Model-based Forecasting: A Comparison of LSTM, Gradient Boosting, and Feedforward Neural Networks as Prognostic State Emulators in a Case Study with ECLand, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2024-2081, 2024
+
 ---
 
 ## Episode 14: ARCHESWEATHER — An Efficient AI Weather Forecasting Model at 1.5º Resolution
+
+- **DOI:** [https://doi.org/10.48550/arXiv.2405.14527](https://doi.org/10.48550/arXiv.2405.14527)
+
+**Abstract:**
+One of the guiding principles for designing AI-based weather forecasting systems is to embed physical constraints as inductive priors in the neural network architecture. A popular prior is locality, where the atmospheric data is processed with local neural interactions, like 3D convolutions or 3D local attention windows as in Pangu-Weather...
+
+**Citation:**
+Mukkavilli, S. Karthik, et al. "Ai foundation models for weather and climate: Applications, design, and implementation." arXiv preprint arXiv:2309.10808 (2023).
 
 ---
 
