@@ -117,9 +117,23 @@ Ensemble forecasting is crucial for improving weather predictions, especially fo
 
 **Citation:**
 Zhong, Xiaohui, et al. "FuXi-ENS: A machine learning model for medium-range ensemble weather forecasting." arXiv preprint arXiv:2405.05925 (2024).
+
 ---
 
-## Episode 11: ACE — A Fast, Skillful Learned Global Atmospheric Model for Climate Prediction
+## Episode 11: WeatherBench 2: A benchmark for the next generation of data-driven global weather models
+
+- **DOI:** [https://doi.org/10.48550/arXiv.2308.15560](https://doi.org/10.48550/arXiv.2308.15560)
+
+**Abstract:** 
+WeatherBench 2 is an update to the global, medium-range (1-14 day) weather forecasting benchmark proposed by Rasp et al. (2020), designed with the aim to accelerate progress in data-driven weather modeling. WeatherBench 2 consists of an open-source evaluation framework, publicly available training, ground truth and baseline data as well as a continuously updated website with the latest metrics and state-of-the-art model...
+
+**Citation:**
+Rasp, Stephan, et al. "WeatherBench 2: A benchmark for the next generation of data‐driven global weather models." Journal of Advances in Modeling Earth Systems 16.6 (2024): e2023MS004019.
+---
+
+---
+
+## Episode xx: ACE — A Fast, Skillful Learned Global Atmospheric Model for Climate Prediction
 
 - **DOI:** [https://doi.org/10.48550/arXiv.2310.02074](https://doi.org/10.48550/arXiv.2310.02074)
 
@@ -130,7 +144,7 @@ Existing ML-based atmospheric models are not suitable for climate prediction, wh
 Watt-Meyer, Oliver, et al. "ACE: A fast, skillful learned global atmospheric model for climate prediction." arXiv preprint arXiv:2310.02074 (2023).
 ---
 
-## Episode 12: AURORA — A Foundation Model of the Atmosphere
+## Episode xx: AURORA — A Foundation Model of the Atmosphere
 
 - **DOI:** [https://doi.org/10.48550/arXiv.2405.130634](https://doi.org/10.48550/arXiv.2405.13063)
 
@@ -142,7 +156,7 @@ Bodnar, Cristian, et al. "Aurora: A foundation model of the atmosphere." arXiv p
 
 ---
 
-## Episode 13: Advances in Land Surface Model-Based Forecasting
+## Episode xx: Advances in Land Surface Model-Based Forecasting
 
 - **DOI:** [https://doi.org/10.5194/egusphere-2024-2081](https://doi.org/10.5194/egusphere-2024-2081)
 
@@ -154,7 +168,7 @@ Wesselkamp, M., et al. : Advances in Land Surface Model-based Forecasting: A Com
 
 ---
 
-## Episode 14: ARCHESWEATHER — An Efficient AI Weather Forecasting Model at 1.5º Resolution
+## Episode xx: ARCHESWEATHER — An Efficient AI Weather Forecasting Model at 1.5º Resolution
 
 - **DOI:** [https://doi.org/10.48550/arXiv.2405.14527](https://doi.org/10.48550/arXiv.2405.14527)
 
@@ -166,14 +180,14 @@ Mukkavilli, S. Karthik, et al. "Ai foundation models for weather and climate: Ap
 
 ---
 
-## Episode 15: DiffDA — A Diffusion Model for Weather-Scale Data Assimilation
+## Episode xx: DiffDA — A Diffusion Model for Weather-Scale Data Assimilation
 
 ---
 
-## Episode 16: GRAPHDOP — Towards Skillful Data-Driven Medium-Range Weather Forecasts
+## Episode xx: GRAPHDOP — Towards Skillful Data-Driven Medium-Range Weather Forecasts
 
 ---
 
-## Episode 17: Probabilistic Emulation of a Global Climate Model with Spherical DYffusion
+## Episode xx: Probabilistic Emulation of a Global Climate Model with Spherical DYffusion
 
 ---
