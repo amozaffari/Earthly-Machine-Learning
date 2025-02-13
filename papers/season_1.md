@@ -133,7 +133,7 @@ Rasp, Stephan, et al. "WeatherBench 2: A benchmark for the next generation of da
 
 ---
 
-## Episode xx: ACE — A Fast, Skillful Learned Global Atmospheric Model for Climate Prediction
+## Episode 12: ACE — A Fast, Skillful Learned Global Atmospheric Model for Climate Prediction
 
 - **DOI:** [https://doi.org/10.48550/arXiv.2310.02074](https://doi.org/10.48550/arXiv.2310.02074)
 
@@ -144,7 +144,7 @@ Existing ML-based atmospheric models are not suitable for climate prediction, wh
 Watt-Meyer, Oliver, et al. "ACE: A fast, skillful learned global atmospheric model for climate prediction." arXiv preprint arXiv:2310.02074 (2023).
 ---
 
-## Episode xx: AURORA — A Foundation Model of the Atmosphere
+## Episode 13: AURORA — A Foundation Model of the Atmosphere
 
 - **DOI:** [https://doi.org/10.48550/arXiv.2405.130634](https://doi.org/10.48550/arXiv.2405.13063)
 
@@ -153,6 +153,18 @@ Reliable forecasts of the Earth system are crucial for human progress and safety
 
 **Citation:**
 Bodnar, Cristian, et al. "Aurora: A foundation model of the atmosphere." arXiv preprint arXiv:2405.13063 (2024).
+
+---
+
+## Episode 14: ACE2: Accurately learning subseasonal to decadal atmospheric variability and forced responses
+
+- **DOI:** [https://doi.org/10.48550/arXiv.2411.11268](https://doi.org/10.48550/arXiv.2411.11268)
+
+**Abstract:**
+Existing machine learning models of weather variability are not formulated to enable assessment of their response to varying external boundary conditions such as sea surface temperature and greenhouse gases. Here we present ACE2 (Ai2 Climate Emulator version 2) and its application to reproducing atmospheric variability over the past 80 years on timescales from days to decades. ACE2 is a 450M-parameter autoregressive machine learning emulator, operating with 6-hour temporal resolution, 1° horizontal resolution and eight vertical layers. It exactly conserves global dry air mass and moisture and can be stepped forward stably for arbitrarily many steps with a throughput of about 1500 simulated years per wall clock day....
+
+**Citation:**
+Watt-Meyer, Oliver, et al. "ACE2: Accurately learning subseasonal to decadal atmospheric variability and forced responses." arXiv preprint arXiv:2411.11268 (2024).
 
 ---
 
