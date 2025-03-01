@@ -168,7 +168,7 @@ Watt-Meyer, Oliver, et al. "ACE2: Accurately learning subseasonal to decadal atm
 
 ---
 
-## Episode xx: Advances in Land Surface Model-Based Forecasting
+## Episode 15: Advances in Land Surface Model-Based Forecasting
 
 - **DOI:** [https://doi.org/10.5194/egusphere-2024-2081](https://doi.org/10.5194/egusphere-2024-2081)
 
@@ -180,7 +180,7 @@ Wesselkamp, M., et al. : Advances in Land Surface Model-based Forecasting: A Com
 
 ---
 
-## Episode xx: ARCHESWEATHER — An Efficient AI Weather Forecasting Model at 1.5º Resolution
+## Episode 16: ARCHESWEATHER — An Efficient AI Weather Forecasting Model at 1.5º Resolution
 
 - **DOI:** [https://doi.org/10.48550/arXiv.2405.14527](https://doi.org/10.48550/arXiv.2405.14527)
 
@@ -192,14 +192,74 @@ Mukkavilli, S. Karthik, et al. "Ai foundation models for weather and climate: Ap
 
 ---
 
-## Episode xx: DiffDA — A Diffusion Model for Weather-Scale Data Assimilation
+## Episode 17: DiffDA — A Diffusion Model for Weather-Scale Data Assimilation
+
+- **DOI:** [https://doi.org/10.48550/arXiv.2401.05932](https://doi.org/10.48550/arXiv.2401.059327)
+
+**Abstract:**
+The generation of initial conditions via accurate data assimilation is crucial for weather forecasting and climate modeling. We propose DiffDA as a denoising diffusion model capable of assimilating atmospheric variables using predicted states and sparse observations. Acknowledging the similarity between a weather forecast model and a denoising diffusion model dedicated to weather applications, we adapt the pretrained GraphCast neural network as the backbone of the diffusion model...
+
+**Bullet points summary:**
+
+Proposing DiffDA, a machine learning-based data assimilation method, that assimilates atmospheric variables using predicted states and sparse observations.Adapting the pretrained GraphCast weather forecast model as a denoising diffusion model.Using a two-phase conditioning strategy: conditioning on the predicted state during training and inference, and on sparse observations during inference. This enables post-processing of predictions into the future, even without available observations.Demonstrating the method's capability to produce assimilated global atmospheric data consistent with observations at 0.25-degree resolution.Verifying that the generated initial conditions can be used for forecast models with a lead time loss of at most 24 hours, compared to state-of-the-art data assimilation suites [1]. This allows for the creation of reanalysis datasets with autoregressive data assimilation.
+
+**Citation:**
+Huang, Langwen, et al. "Diffda: a diffusion model for weather-scale data assimilation." arXiv preprint arXiv:2401.05932 (2024).
 
 ---
 
-## Episode xx: GRAPHDOP — Towards Skillful Data-Driven Medium-Range Weather Forecasts
+## Episode 18: GRAPHDOP — Towards Skillful Data-Driven Medium-Range Weather Forecasts
+
+- **DOI:** [https://doi.org/10.48550/arXiv.2412.15687](https://doi.org/10.48550/arXiv.2412.15687)
+
+**Abstract:**
+We introduce GraphDOP, a new data-driven, end-to-end forecast system developed at the European Centre for Medium-Range Weather Forecasts (ECMWF) that is trained and initialised exclusively from Earth System observations, with no physics-based (re)analysis inputs or feedbacks. GraphDOP learns the correlations between observed quantities - such as brightness temperatures from polar orbiters and geostationary satellites - and geophysical quantities of interest (that are measured by conventional observations), to form a coherent latent representation of Earth System state dynamics and physical processes, and is capable of producing skilful predictions of relevant weather parameters up to five days into the future.
+
+**Bullet points summary:**
+GraphDOP is a new data-driven forecast system developed at the European Centre for Medium-Range Weather Forecasts (ECMWF) that learns and initialises directly from Earth System observations, without relying on physics-based (re)analysis inputs or feedbacks.
+GraphDOP is capable of producing skillful forecasts of surface and upper-air weather parameters up to five days into the future. For two-metre temperature (t2m) forecasts, GraphDOP is competitive with the operational IFS system and has smaller t2m forecast departures than IFS over the Tropics at lead times of 5 days.
+The model can produce forecasts of observations at arbitrary time and space locations, even for observation types with sparse coverage, and does not require gridded ERA5 fields during training.
+GraphDOP demonstrates the ability to combine information from different instruments to produce a skillful joint forecast of surface and lower tropospheric temperature over the Tropics.
+The network learns relationships between observed variables that generalise to areas without observations. For example, forecasts of upper-level winds compare well with ERA5 even in areas lacking radiosonde or aircraft coverage
+
+**Citation:**
+Alexe, Mihai, et al. "GraphDOP: Towards skilful data-driven medium-range weather forecasts learnt and initialised directly from observations." arXiv preprint arXiv:2412.15687 (2024).
 
 ---
 
-## Episode xx: Probabilistic Emulation of a Global Climate Model with Spherical DYffusion
+## Episode 19: Pangu-Weather — Accurate medium-range global weather forecasting with 3D neural networks
+
+- **DOI:** [https://doi.org/10.1038/s41586-023-06185-3](https://doi.org/10.1038/s41586-023-06185-3)
+
+**Abstract:**
+Weather forecasting is important for science and society. ... Here we introduce an artificial-intelligence-based method for accurate, medium-range global weather forecasting. We show that three-dimensional deep networks equipped with Earth-specific priors are effective at dealing with complex patterns in weather data, and that a hierarchical temporal aggregation strategy reduces accumulation errors in medium-range forecasting...
+
+**Bullet points summary:**
+Pangu-Weather, an AI-based weather forecasting system, uses 3D deep networks with Earth-specific priors to achieve accurate medium-range global weather forecasts.
+Pangu-Weather uses a hierarchical temporal aggregation strategy to reduce accumulation errors in medium-range forecasting.
+Pangu-Weather demonstrates stronger deterministic forecast results compared to the operational Integrated Forecasting System (IFS) of the European Centre for Medium-Range Weather Forecasts (ECMWF) on tested weather variables. It also shows improved accuracy in tracking tropical cyclones compared to ECMWF-HRES.
+The AI-based method of Pangu-Weather is more than 10,000 times faster than the operational IFS, offering opportunities for large-member ensemble forecasts with reduced computational costs.
+Pangu-Weather was trained and tested on reanalysis data and showed limitations, such as omitting certain weather variables and producing smoother forecast results. However, it shows the potential for combining AI-based and NWP methods for improved performance.
+
+**Citation:**
+Bi, K., Xie, L., Zhang, H. et al. Accurate medium-range global weather forecasting with 3D neural networks. Nature 619, 533–538 (2023). https://doi.org/10.1038/s41586-023-06185-3
+---
+
+## Episode 20: Finding the Right XAI Method—A Guide for the Evaluation and Ranking of Explainable AI Methods in Climate Science
+
+- **DOI:** [https://doi.org/10.48550/arXiv.2303.00652](https://doi.org/10.48550/arXiv.2303.00652)
+
+**Abstract:**
+Explainable artificial intelligence (XAI) methods shed light on the predictions of machine learning algorithms. Several different approaches exist and have already been applied in climate science. However, usually missing ground truth explanations complicate their evaluation and comparison, subsequently impeding the choice of the XAI method. Therefore, in this work, we introduce XAI evaluation in the climate context and discuss different desired explanation properties, namely robustness, faithfulness, randomization, complexity, and localization....
+
+**Bullet points summary:**
+XAI evaluation is introduced to climate science to compare and assess the performance of explanation methods based on desirable properties, which can help climate researchers choose suitable XAI methods.
+The paper identifies and discusses five desirable properties of XAI methods: robustness, faithfulness, randomization, complexity, and localization. These properties are evaluated in the context of climate science using an established classification task.
+Different XAI methods exhibit varying strengths and weaknesses with respect to the five evaluation properties, and their performance can be architecture-dependent. For example, salience methods tend to show improvements in faithfulness and complexity but reduced randomization skill. Sensitivity methods, on the other hand, tend to have higher randomization skill scores, but sacrifice faithfulness and complexity skills.
+The paper proposes a framework for selecting an appropriate XAI method for a specific research task. This framework involves identifying essential XAI properties, calculating evaluation skill scores across these properties for different XAI methods, and then ranking or comparing the skill scores to determine the best-performing method or combination of methods.
+XAI evaluation can support researchers in choosing an explanation method, independent of the network structure and targeted to their specific research problem. The use of evaluation metrics alongside benchmark datasets contributes to the benchmarking of explanation methods.
+
+**Citation:**
+Bommer, Philine Lou, et al. "Finding the right XAI method—A guide for the evaluation and ranking of explainable AI methods in climate science." Artificial Intelligence for the Earth Systems 3.3 (2024): e230074.
 
 ---
