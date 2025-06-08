@@ -340,3 +340,83 @@ Earth system models have been continously improved over the past decades, but sy
 Eyring, Veronika, et al. "AI-empowered next-generation multiscale climate modelling for mitigation and adaptation." Nature Geoscience 17.10 (2024): 963-971.
 
 ---
+
+## Episode 25: **ClimaX: A foundation model for weather and climate**
+
+- **DOI:** https://doi.org/10.48550/arXiv.2301.10343
+
+**Abstract:**
+
+Most state-of-the-art approaches for weather and climate modeling are based on physics-informed numerical models of the atmosphere. These approaches aim to model the non-linear dynamics and complex interactions between multiple variables, which are challenging to approximate. Additionally, many such numerical models are computationally intensive, especially when modeling the atmospheric phenomenon at a fine-grained spatial and temporal resolution. Recent data-driven approaches based on machine learning instead aim to directly solve a downstream forecasting or projection task by learning a data-driven functional mapping using deep neural networks. However, these networks are trained using curated and homogeneous climate datasets for specific spatiotemporal tasks, and thus lack the generality of numerical models. We develop and demonstrate ClimaX, a flexible and generalizable deep learning model for weather and climate science that can be trained using heterogeneous datasets spanning different variables, spatio-temporal coverage, and physical groundings…..
+
+**Bullet points summary:**
+
+- **ClimaX is a novel foundation model for weather and climate science**, designed to overcome the limitations of traditional physics-informed numerical models and task-specific data-driven approaches by offering a flexible and generalisable model trained on heterogeneous datasets.
+- The ClimaX architecture extends the Transformer with **innovative variable tokenization and variable aggregation blocks**, enabling it to effectively process diverse climate data with varying variables and spatio-temporal coverage.
+- ClimaX is **pre-trained using a self-supervised randomized forecasting objective on climate datasets derived from CMIP6**, allowing it to learn complex relationships between atmospheric variables and facilitating effective finetuning for a wide range of downstream tasks.
+- The pre-trained ClimaX demonstrates **strong performance on various downstream tasks**, including multi-scale weather forecasting, climate projections (ClimateBench), and climate model downscaling, often achieving **state-of-the-art or competitive results** compared to existing baselines and even operational systems like IFS. This generality in ClimaX leads to superior performance on benchmarks even when pretrained at lower resolutions and compute budgets.
+- The paper also explores the **scaling properties of ClimaX**, showing that its performance improves with increased pretraining data size and higher spatial resolution, highlighting its potential for further advancements with more data and compute. ClimaX can effectively scale using heterogeneous climate datasets during pretraining and generalise to diverse downstream tasks during finetuning.
+
+**Citation:**
+
+Nguyen, Tung, et al. "Climax: A foundation model for weather and climate." *arXiv preprint arXiv:2301.10343* (2023).
+
+---
+
+## Episode 26: **Climate-invariant machine learning**
+
+- **DOI:** [DOI: 10.1126/sciadv.adj7250](https://doi.org/10.1126/sciadv.adj7250)
+
+**Abstract:**
+
+Projecting climate change is a generalization problem: We extrapolate the recent past using physical models across past, present, and future climates. Current climate models require representations of processes that occur at scales smaller than model grid size, which have been the main source of model projection uncertainty. Recent machine learning (ML) algorithms hold promise to improve such process representations but tend to extrapolate poorly to climate regimes that they were not trained on. To get the best of the physical and statistical worlds, we propose a framework, termed “climate-invariant” ML, incorporating knowledge of climate processes into ML algorithms, and show that ….
+
+**Bullet points summary:**
+
+- The paper addresses the challenge of machine learning (ML) algorithms in climate science that often **fail to extrapolate accurately to climate conditions outside of their training data range**. This limitation hinders their use in projecting future climate change.
+- To overcome this, the authors propose a **"climate-invariant" ML framework** that incorporates knowledge of climate processes into ML algorithms**1**. This is achieved by applying physically based feature transformations to the input and output data, aiming to make their distributions more consistent across different climates.
+- The study demonstrates that these **climate-invariant ML models, particularly neural networks (NNs), maintain high accuracy and generalise significantly better across a wide range of climate conditions and configurations** in three distinct atmospheric models compared to raw-data ML models. The incremental transformation of inputs like specific humidity, temperature, and latent heat flux progressively improves generalisation abilities.
+- Explainable artificial intelligence techniques suggest that **climate-invariant mappings learned by NNs are more spatially local**, indicating that incorporating physical knowledge leads to more robust and interpretable models. This approach also enhances data efficiency and performance, even when training data from multiple climates are available.
+
+**Citation:**
+
+Beucler, Tom, et al. "Climate-invariant machine learning." *Science Advances* 10.6 (2024): eadj7250.
+
+---
+
+## Episode 27:  Fixing the Double Penalty in Data-Driven Weather Forecasting Through a Modified Spherical Harmonic Loss Function
+
+- **DOI:** https://doi.org/10.48550/arXiv.2501.19374
+
+**Abstract:**
+
+Recent advancements in data-driven weather forecasting models have delivered deterministic models that outperform the leading operational forecast systems based on traditional, physics-based models. However, these data-driven models are typically trained with a mean squared error loss function, which causes smoothing of fine scales through a "double penalty" effect. We develop a simple, parameter-free modification to this loss function that avoids this problem by separating the loss attributable to decorrelation from the loss attributable to spectral amplitude errors.
+
+**Bullet points summary:**
+
+- **Data-driven weather forecasting models, despite their high skill, typically produce overly smooth forecasts** due to training with a mean squared error (MSE) loss function. This "double penalty" effect causes an under-prediction of localized extreme events and reduces the effective resolution of models like GraphCast.
+- The authors propose a **new, parameter-free loss function called Adjusted Mean Squared Error (AMSE)**. This function modifies the MSE by separating the loss attributable to decorrelation from the loss attributable to spectral amplitude errors, encouraging the model to reproduce a realistic spectrum even if it cannot make a perfectly accurate prediction.
+- **Fine-tuning the GraphCast model with this new AMSE loss function significantly improves forecast sharpness and effective resolution**. This leads to an increase in effective resolution from 1,250km to 160km, improvements to ensemble spread, and more accurate predictions of tropical cyclone strength and surface wind extremes.
+- This approach demonstrates that **it is possible to produce sharp, deterministic weather forecasts without directly modeling ensemble uncertainty**, making data-driven weather forecasting more realistic and useful for predicting extreme weather events.
+
+**Citation:**  Subich, Christopher, et al. "Fixing the Double Penalty in Data-Driven Weather Forecasting Through a Modified Spherical Harmonic Loss Function." arXiv preprint arXiv:2501.19374 (2025).
+
+---
+
+## Episode 28:  **Artificial intelligence for modeling and understanding extreme weather and climate events**
+
+- **DOI:** https://doi.org/10.1038/s41467-025-56573-8
+
+**Abstract:**
+
+In recent years, artificial intelligence (AI) has deeply impacted various fields, including Earth system sciences, by improving weather forecasting, model emulation, parameter estimation, and the prediction of extreme events. The latter comes with specific challenges, such as developing accurate predictors from noisy, heterogeneous, small sample sizes and data with limited annotations. This paper reviews how AI is being used to analyze extreme climate events (like floods, droughts, wildfires, and heatwaves), highlighting the importance of creating accurate, transparent, and reliable AI models……
+
+**Bullet points summary:**
+
+- **Artificial intelligence (AI) is having a profound impact on Earth system sciences**, significantly enhancing capabilities for **modelling, detecting, forecasting, and assessing the impacts of extreme climate events** such as floods, droughts, wildfires, and heatwaves. AI also offers advances in attribution studies, explanation, and the generation of worst-case scenarios
+- Despite its potential, **applying AI to extreme events faces significant challenges**. These include developing accurate predictors from noisy, heterogeneous, and small datasets, dealing with limited expert annotations, and overcoming the inherent difficulty of providing a precise, universally applicable statistical definition of an extreme event. Ensuring models capture complex, non-stationary relationships and perform robustly under unseen conditions are also key hurdles
+- **Building trustworthy AI models is paramount** for high-stakes decisions related to public safety and resource allocation. This involves a focus on **transparency, reliability, and interpretability** through methods like Explainable AI (XAI), which helps to reveal model functioning, learned relationships, and biases, as well as causal inference to understand underlying mechanisms and Uncertainty Quantification (UQ) to assess prediction confidence
+- The **"last mile" of AI integration focuses on operationalisation and effective risk communication** to translate AI-enhanced information into actionable insights for decision-makers and the public. This requires developing robust early warning systems, personalising alerts, and addressing ethical considerations such as fairness, privacy, and bias in AI models to ensure community preparedness and response
+- **Cross-disciplinary collaboration is essential** for advancing AI applications in extreme event analysis. It necessitates a coordinated effort involving AI researchers, environmental and climate scientists, field experts, and policymakers to develop practical, understandable, and trustworthy AI solutions that are adapted to real-world needs and constraints, ultimately enhancing disaster readiness and risk reduction
+
+**Citation:**  Camps-Valls, Gustau, et al. "Artificial intelligence for modeling and understanding extreme weather and climate events." Nature Communications 16.1 (2025): 1919.
