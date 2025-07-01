@@ -420,3 +420,41 @@ In recent years, artificial intelligence (AI) has deeply impacted various fields
 - **Cross-disciplinary collaboration is essential** for advancing AI applications in extreme event analysis. It necessitates a coordinated effort involving AI researchers, environmental and climate scientists, field experts, and policymakers to develop practical, understandable, and trustworthy AI solutions that are adapted to real-world needs and constraints, ultimately enhancing disaster readiness and risk reduction
 
 **Citation:**  Camps-Valls, Gustau, et al. "Artificial intelligence for modeling and understanding extreme weather and climate events." Nature Communications 16.1 (2025): 1919.
+
+## Episode 29:  **On Some Limitations of Current Machine Learning Weather Prediction Models**
+
+- **DOI:**  https://doi.org/10.1029/2023GL107377
+
+**Abstract:**
+Machine Learning (ML) is having a profound impact in the domain of Weather and Climate Prediction. A recent development in this area has been the emergence of fully data-driven ML prediction models which routinely claim superior performance to that of traditional physics-based models. We examine some aspects of the forecasts produced by three of the leading current ML models, Pangu-Weather, FourCastNet and GraphCast, with a focus on their fidelity and physical consistency....
+
+**Bullet points summary:**
+
+- Current machine learning (ML) weather prediction models, including Pangu-Weather, FourCastNet, and GraphCast, are unable to properly reproduce sub-synoptic and mesoscale weather phenomena, and they lack the fidelity and physical consistency of traditional physics-based models. Their forecasts tend to become progressively "blurry" or smoother with increasing forecast lead times.
+
+- A significant issue is that forecasts from these ML models have energy spectra that are notably different from their training reanalysis fields and traditional Numerical Weather Prediction (NWP) models. This discrepancy means that weather phenomena at spatial scales shorter than 300–400 km are not accurately represented.
+
+- The ML models do not realistically represent fundamental physical balances in the atmosphere. For instance, the balance between mass variables and the wind field (geostrophic wind balance) is compromised, and the ratio between divergent and rotational wind components is significantly reduced. This physical inconsistency impacts the realism of derived quantities, such as vertical motion fields and areas of active weather.
+
+- Despite claims of superior performance and significantly lower computational costs during deployment compared to traditional NWP systems, these ML models are better considered as post-processing algorithms targeted at optimizing specific aspects of forecast performance (like medium-range mean squared/absolute errors). They are not general-purpose atmosphere simulators or "atmospheric digital twins," and their development and training still fundamentally depend on physics-based models and data assimilation systems
+
+**Citation:**  Bonavita, Massimo. "On some limitations of current machine learning weather prediction models." Geophysical Research Letters 51.12 (2024): e2023GL107377.
+
+## Episode 30:  **Early warning of complex climate risk with integrated artificial intelligence**
+
+- **DOI:** https://doi.org/10.1038/s41467-025-57640-w
+
+**Abstract:**
+As climate change accelerates, human societies face growing exposure to disasters and stress, highlighting the urgent need for effective early warning systems (EWS). These systems monitor, assess, and communicate risks to support resilience and sustainable development, but challenges remain in hazard forecasting, risk communication, and decision-making. This perspective explores the transformative potential of integrated Artificial Intelligence (AI) modeling...
+
+**Bullet points summary:**
+
+- Early Warning Systems (EWS) are essential for managing climate and environmental hazards, yet current systems face significant challenges. These include limitations in forecasting accuracy for both rapid and slow-onset disasters, difficulties in predicting real-world impacts due to complex local environmental and societal variables, underutilization of diverse data sources, and issues with effectively communicating warnings to varied communities.
+
+- Artificial Intelligence (AI), particularly through integrated modeling and Foundation Models (FMs), offers a transformative solution for EWS. AI can significantly improve forecast accuracy, lead times, and resolution. It enables a shift from mere hazard prediction to impact-centric and localized warnings by leveraging diverse data, including traditional meteorological, geospatial, and socioeconomic data, as well as unconventional sources like social media.
+
+- A key technological path forward involves developing Foundation Models (FMs) for meteorology, geospatial applications, and their combination, potentially integrating natural language processing for enhanced communication. These FMs can enable more intuitive warnings (e.g., photo-realistic images of affected areas) and interactive communication through chatbots, adapting messages to user needs and improving decision-making.
+
+- The effective and equitable implementation of AI-based EWS requires addressing critical challenges. These include mitigating biases in training data, ensuring robustness against unprecedented climate events, and navigating issues of data ownership and potential power centralization within a few entities, particularly private corporations. Emphasizing responsible AI practices guided by Fairness, Accountability, Transparency, Ethics, and Sustainability (FATES) principles, promoting open-source models, fostering global collaboration, and addressing the digital divide are crucial for democratizing access and building trust.
+
+**Citation:** Reichstein, Markus, et al. "Early warning of complex climate risk with integrated artificial intelligence." Nature Communications 16.1 (2025): 2564.
