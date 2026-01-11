@@ -1,6 +1,14 @@
 # Earthly Machine Learning (EML) Podcast Repository  
 
-Welcome to the official repository for **Earthly Machine Learning (EML)** — [listen on Spotify](https://open.spotify.com/show/0lTrPDrL7p3TgXwkmVqkQh?si=08ba3b69187e4144) or [on Apple Podcast](https://podcasts.apple.com/us/podcast/earthly-machine-learning/id1789926996).  
+Welcome to the official repository for **Earthly Machine Learning (EML)**.
+
+## Listen to the Podcast
+
+- [Apple Podcasts](https://podcasts.apple.com/us/podcast/earthly-machine-learning/id1789926996)
+- [Podcast Addict](https://podcastaddict.com/podcast/earthly-machine-learning/5729923)
+- [Castbox](https://castbox.fm/channel/id6424480)
+- [Goodpods](https://goodpods.com/podcasts/earthly-machine-learning-645229)
+- [Spotify](https://open.spotify.com/show/0lTrPDrL7p3TgXwkmVqkQh?si=08ba3b69187e4144) *(our least favorite platform, but included just in case)*  
 
 **Earthly Machine Learning (EML)** brings you concise, AI-generated summaries of the latest machine learning research in weather, climate, and Earth sciences. The podcast is designed to make it easy to understand key insights from papers and decide whether to explore them in detail.  
 

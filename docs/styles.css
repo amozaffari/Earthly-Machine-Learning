@@ -97,6 +97,46 @@ header {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
+.btn-podcast-addict {
+    background-color: #f4511e;
+    color: white;
+}
+
+.btn-podcast-addict:hover {
+    background-color: #e64a19;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(244, 81, 30, 0.4);
+}
+
+.btn-castbox {
+    background-color: #f55b23;
+    color: white;
+}
+
+.btn-castbox:hover {
+    background-color: #e64a19;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(245, 91, 35, 0.4);
+}
+
+.btn-goodpods {
+    background-color: #8b5cf6;
+    color: white;
+}
+
+.btn-goodpods:hover {
+    background-color: #7c3aed;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+}
+
+.platform-note {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    font-style: italic;
+    opacity: 0.85;
+}
+
 /* Main Content */
 main {
     padding: 60px 20px;
