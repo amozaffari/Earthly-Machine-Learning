@@ -45,9 +45,10 @@ const episodes2025 = [
     { episode: 43, name: "Spherical Harmonic Transforms", title: "Differentiable and accelerated spherical harmonic and Wigner transforms", doi: "https://doi.org/10.48550/arXiv.2401.05932", podcast: null, year: 2025 }
 ];
 
-// This will be populated from the 2026 markdown file
-// For now, it's an empty array - you can add episodes as they're released
-const episodes2026 = [];
+// Episodes from 2026
+const episodes2026 = [
+    { episode: 1, name: "AI for Atmospheric Sciences", title: "Artificial Intelligence for Atmospheric Sciences: A Research Roadmap", doi: "https://doi.org/10.48550/arXiv.2506.16281", podcast: "https://open.spotify.com/episode/2MaNsw86JwWldyZnjQOarc", year: 2026 }
+];
 
 // Combine all episodes
 const allEpisodes = [...episodes2025, ...episodes2026];
