@@ -11,6 +11,6 @@
 
 ### Bullet point summary & Podcast description
 
-• Provide me with 3–5 bullet points summarizing the main takeaways of the paper. 
+• Provide me with 3–5 bullet points summarizing the main takeaways of the paper.
 • Format it in markdown and remove the numbers that reference the paper.
-Include the name of the paper on top and citation of it as i will use this as a podcast description. 
+Include the name of the paper on top and citation of it as i will use this as a podcast description.

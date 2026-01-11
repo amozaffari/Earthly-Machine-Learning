@@ -14,16 +14,20 @@ This repository is organized into two main folders:
    Contains scripts used for:  
    - Querying research papers for NotebookLM  
 
-2. **`papers/`** 📚  
-   Contains links to published research papers discussed in each podcast episode, organized by episode or topic for easy reference.  
+2. **`papers/`** 📚
+   Contains comprehensive tables of research papers discussed in each podcast episode, organized by year:
+   - [episods_2025.md](papers/episods_2025.md) - Episodes from 2025
+   - [episods_2026.md](papers/episods_2026.md) - Episodes from 2026
+
+   Each file includes episode number, name, paper title, DOI link, and podcast link (when available).  
 
 ---
 
-## How to Use  
+## How to Use
 
-- Use the `tools/` folder to explore and run scripts for research paper processing.  
-- Navigate to the `papers/` folder to access links to research papers featured in the podcast.  
-- Check episode-specific notes and updates for any additional context.  
+- Use the `tools/` folder to explore and run scripts for research paper processing.
+- Navigate to the `papers/` folder to browse episodes by year and access research papers and podcast links.
+- Each episode table provides direct links to both the academic paper (DOI) and the podcast episode.  
 
 ---
 

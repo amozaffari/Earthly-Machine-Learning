@@ -1,0 +1,3 @@
+| Episode | Name                    | Paper Title                                                                                             | DOI Link | Podcast Link |
+|--------:|-------------------------|----------------------------------------------------------------------------------------------------------|----------|--------------|
+| 1       | AI for Atmospheric Sciences | Artificial Intelligence for Atmospheric Sciences: A Research Roadmap                                      | [Link](https://doi.org/10.48550/arXiv.2506.16281) | [Podcast](https://open.spotify.com/episode/2MaNsw86JwWldyZnjQOarc) |
