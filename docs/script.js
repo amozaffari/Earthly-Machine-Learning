@@ -47,7 +47,8 @@ const episodes2025 = [
 
 // Episodes from 2026
 const episodes2026 = [
-    { episode: 1, name: "AI for Atmospheric Sciences", title: "Artificial Intelligence for Atmospheric Sciences: A Research Roadmap", doi: "https://doi.org/10.48550/arXiv.2506.16281", podcast: "https://goodpods.com/podcasts/earthly-machine-learning-645229/artificial-intelligence-for-atmospheric-sciences-a-research-roadmap-104249836", year: 2026 }
+    { episode: 1, name: "AI for Atmospheric Sciences", title: "Artificial Intelligence for Atmospheric Sciences: A Research Roadmap", doi: "https://doi.org/10.48550/arXiv.2506.16281", podcast: "https://goodpods.com/podcasts/earthly-machine-learning-645229/artificial-intelligence-for-atmospheric-sciences-a-research-roadmap-104249836", year: 2026 },
+    { episode: 2, name: "Climate Knowledge in LLMs", title: "Climate Knowledge in Large Language Models", doi: "https://arxiv.org/abs/2510.08043", podcast: "https://open.spotify.com/episode/19FrLWH5n7WIbIUX7KXjaY?si=LrlqAZloSfiXRZ_nHWnaMg", year: 2026 }
 ];
 
 // Combine all episodes
