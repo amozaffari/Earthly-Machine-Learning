@@ -50,7 +50,8 @@ const episodes2026 = [
     { episode: 1, name: "AI for Atmospheric Sciences", title: "Artificial Intelligence for Atmospheric Sciences: A Research Roadmap", doi: "https://doi.org/10.48550/arXiv.2506.16281", podcast: "https://goodpods.com/podcasts/earthly-machine-learning-645229/artificial-intelligence-for-atmospheric-sciences-a-research-roadmap-104249836", year: 2026 },
     { episode: 2, name: "Climate Knowledge in LLMs", title: "Climate Knowledge in Large Language Models", doi: "https://arxiv.org/abs/2510.08043", podcast: "https://open.spotify.com/episode/19FrLWH5n7WIbIUX7KXjaY?si=LrlqAZloSfiXRZ_nHWnaMg", year: 2026 },
     { episode: 3, name: "Green and intelligent", title: "Green and intelligent: the role of AI in the climate transition", doi: "https://www.nature.com/articles/s44168-025-00252-3", podcast: "https://open.spotify.com/episode/6SRv5I3dpw1BHfuLuCVgiD?si=jYYNIN-HSH2Y6osLXbHasQ", year: 2026 },
-    { episode: 4, name: "Extreme precipitation drivers", title: "Learning predictable and informative dynamical drivers of extreme precipitation using variational autoencoders", doi: "https://doi.org/10.5194/wcd-6-995-2025", podcast: "https://open.spotify.com/episode/2VkDgo8dfmwn0WwFtbvM51?si=jQygLbLkQySEJF17Ui-kdA", year: 2026 }
+    { episode: 4, name: "Extreme precipitation drivers", title: "Learning predictable and informative dynamical drivers of extreme precipitation using variational autoencoders", doi: "https://doi.org/10.5194/wcd-6-995-2025", podcast: "https://open.spotify.com/episode/2VkDgo8dfmwn0WwFtbvM51?si=jQygLbLkQySEJF17Ui-kdA", year: 2026 },
+    { episode: 5, name: "Whose weather is it?", title: "Whose weather is it? A fairness framework for data-driven weather forecasting", doi: "https://doi.org/10.1088/1748-9326/ae21f5", podcast: "https://open.spotify.com/episode/5FS6ybxZsv54rDbUEzKWbE?si=jCkDkuwXQw-xU4Q96IbTrA", year: 2026 }
 ];
 
 // Combine all episodes
